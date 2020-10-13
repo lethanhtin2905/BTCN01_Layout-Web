@@ -1,0 +1,226 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:"Helvetica Neue", Helvetica, Arial;
+  }
+  
+  body{
+    background-color:black;
+    background: url("../images/background.png") repeat;
+    padding-top:10px;
+  }
+  /*HEADER HERE*/
+  #header-nav{
+    border:none;
+  }
+  #main-box{
+    background-color:#f7f7f7;
+    border-radius: 3px;
+    padding-top:30px;
+    width:90%;
+    margin:auto;
+  }
+  
+  #logo-img {
+    background: url('../images/logo.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    margin-left:20px;
+  }
+  #logo-shadow-img{
+    background: url('../images/logo_shadow.png') no-repeat;
+    width:64px;
+    height:12px;
+    margin-left:20px;
+    margin-top:5px;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  .navbar-brand h1{
+    position: absolute;
+    top:0;
+    font-stretch: ultra-condensed;
+    font-size:25px;
+    margin-left:20px;
+  }
+  #xtech-txt{
+    color: #656565;
+      font-weight:bold;
+  }
+  #landing-txt{
+    color:#b1b1b1;
+  }
+  .nav,.navbar-nav,.navbar-right
+  {
+    display: flex;
+  }
+  #nav-list a{
+    font-stretch: condensed;
+    font-size:20px;
+    color:#b1b1b1;
+  }
+  #navbar-menu{
+    margin-right: 10px;
+  }
+  #call-txt{
+    color: #656565;
+    font-weight:bolder;
+    display: inline;
+  }
+  /*MAIN-CONTENT HERE*/
+  #main-content{
+    padding-left:30px;
+    padding-right:30px;
+  }
+  #main-content h1{
+    text-align: center;
+    margin-top:0;
+    font-stretch: condensed;
+    font-weight: bold;
+  }
+  #jumbotron{
+    background-color:#f7f7f7;
+    margin:0 auto 0px auto;
+  }
+  .row{
+  padding-left:20px;
+  padding-right:20px;
+  }
+  .gia-button{
+    padding:3px 20px 3px;
+    background-image:linear-gradient(#beeaff,#5c97df);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    border:#a3c9f0 3px solid;
+    box-shadow: 0px 1px 1px 1px #48617c;
+  }
+  .gia-button div:nth-child(1){
+    font-weight:850;
+    font-stretch: condensed;
+    color: #37567f;
+  }
+  .gia-button div:nth-child(2){
+    font-weight: normal;
+    font-stretch: condensed;
+    color:#19293e;
+  }
+  .gia-button:hover{
+    background-image:linear-gradient(#5c97df,#beeaff);
+  }
+  #button-shadow{
+    height:16px;
+    background-color: #f7f7f7;
+    max-width: 345px;
+    margin-right:auto;
+    margin-left: auto;
+  }
+  .jshadow{
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+  
+  .cotf{
+    color:#5790dc;
+    font-style: italic;
+    font-size:20px;
+    font-stretch: condensed;
+    vertical-align: bottom;
+  }
+  .arrow{
+    display: inline;
+    position: absolute;
+    top:50%;
+  }
+  .row{
+    margin-bottom: 20px;
+  }
+  .tiles-content{
+    margin-left:0;
+  }
+  .tiles-name{
+    margin-bottom: 5px;
+    font-weight: 800;
+    font-stretch: condensed;
+    font-size:1.5em;
+  }
+  .tiles{
+    margin-bottom: 40px;
+  }
+  .tiles-content div:nth-child(2){
+    font-stretch: ultra-condensed;
+    color:#9c9c9c;
+    font-size:0.9em;
+    margin:20px 0 auto auto;
+  }
+  #testimony{
+    text-align: center;
+    padding:30px 40px;
+    border-top:2px solid #c2c2c2;
+      border-left:2px solid #c2c2c2;
+    border-radius: 5px;
+    margin:20px 0 15px ;
+    background-color: #ebebeb;
+  }
+  #testimony p{
+    color:#a1a1a1;
+    font-size:0.9em;
+    font-style:italic;
+  }
+  #sja{
+      color:#a1a1a1;
+    font-size:0.9em;
+    text-align: right;
+    margin-right: 50px;
+  }
+  .offset{
+    position: absolute;
+    top:-30px;
+    left:40%;
+  }
+  .eof{
+    background-color: #646464;
+    color:black;
+    font-stretch: condensed;
+    padding-left: 25px;
+    margin-top:10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
+  .row{
+    margin-bottom: 0;
+  }
+  footer{
+    margin-left:0;
+    margin-right:0;
+    padding:30px 0 0 auto;
+    background:url('../images/Shape 2 copy 4.png'), repeat; 
+  }
+  .foottiles{
+    margin-top:20px;
+  }
+  #footer{
+    padding:0;
+  }
+  #footer-row{
+    width: 100%;
+    padding:0;
+    margin:0;
+  }
+  section{
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 30px;
+    }
+  .btimg{
+    position: relative;
+    top:50px;
+  }
+  .inline-icon{
+    display: inline;
+  }
+  .shaddow2{
+    width:200px;
+  }
